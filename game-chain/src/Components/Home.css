@@ -1,0 +1,66 @@
+.Homepage {
+  background-color: #333851;
+  z-index: 0;
+}
+input[type="text"] {
+  width: 50%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url("searchicon.png");
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  position: relative;
+  margin-top: 100px;
+  margin-bottom: -20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 70px;
+  position: relative;
+}
+
+.container img {
+  background-repeat: no-repeat, repeat;
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+}
+
+.container .btn {
+  float: right;
+  position: absolute;
+  top: 80%;
+  left: 90%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 5px 15px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+.container .btn {
+  float: right;
+  background-color: orange;
+}
+
+/* @media screen and (max-width: 450px) {
+  .container {
+    width: 80%;
+    height: 10px;
+  } */

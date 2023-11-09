@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  background-color: #333851;
+}
+
+.xbox1 {
+  padding-top: 800px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  position: relative;
+}
+
+.container img {
+  background-repeat: no-repeat, repeat;
+  width: 80%;
+  height: 600px;
+  background-color: white;
+}
+
+.container .btn {
+  float: right;
+  position: absolute;
+  top: 80%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+.container .btn {
+  float: right;
+  background-color: orange;
+}

@@ -1,0 +1,364 @@
+body {
+  margin: 0;
+  background-color: #333851;
+
+}
+.xbox-cards{
+color: green;
+}
+
+.cards {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  max-width: 100%;
+  padding-left: 2%;
+  text-align: center;
+}
+
+.xbox1 {
+  padding-top: 800px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 60px;
+  position: relative;
+  
+
+}
+
+.container img {
+  background-repeat: no-repeat, repeat;
+  width: 80%;
+  height: 600px;
+}
+
+.container .btn {
+  float: right;
+  position: absolute;
+  top: 80%;
+  left: 83%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #555;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.container .btn:hover {
+  background-color: black;
+}
+.container .btn {
+  float: right;
+  background-color: orange;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  font-family: "Roboto Slab", serif;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.responsive {
+  width: 100%;
+  max-width: auto;
+  height: auto;
+}
+
+.cards1 {
+  width: 100%;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  max-width: 100%;
+  padding-left: 2%;
+  text-align: center;
+  background-color: ;
+  /* padding-top: 10%; */
+}
+
+/* @media (max-width: 400px) {
+  .cards {
+    display: flex;
+    flex-direction: column;
+    flex: 100%;
+    width: 100%;
+    height: auto;
+    
+  }
+} */
+
+.card--1 .card__img,
+.card--1 .card__img--hover {
+  background-image: url("https://stevivor.com/wp-content/uploads/2022/02/elden-ring.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+}
+
+.card--2 .card__img,
+.card--2 .card__img--hover {
+  background-image: url("https://news.xbox.com/en-us/wp-content/uploads/sites/2/2021/01/Village-Key-Art-1_1920x1080.jpg");
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+
+.card--3 .card__img,
+.card--3 .card__img--hover {
+  background-image: url("https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Fdetroit-become-human%2Fhome%2FDetroit_PC_Carousel-1920x1080-6e90610a5d314ce0c12860770cc38c1b23213000.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.card--4 .card__img,
+.card--4 .card__img--hover {
+  background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202207/1210/aqZdSwWyy9JcQ66BxHDKrky6.jpg");
+  width: 100%;
+  height: 300px;
+}
+.card--5 .card__img,
+.card--5 .card__img--hover {
+  background-image: url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/super-smash-bros-ultimate-switch/hero");
+  width: 100%;
+  height: 300px;
+}
+.card--6 .card__img,
+.card--6 .card__img--hover {
+  background-image: url("https://gamingbolt.com/wp-content/uploads/2022/07/fifa-23-image.jpg");
+  width: 100%;
+  height: 300px;
+}
+.card--7 .card__img,
+.card--7 .card__img--hover {
+  background-image: url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/m/mario-kart-8-deluxe-switch/hero");
+  width: 100%;
+  height: 300px;
+}
+.card--8 .card__img,
+.card--8 .card__img--hover {
+  background-image: url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/dlc/switch-dlc/mortal-kombat-11-dlc/rom-bundle/mortal-kombat-11-ultimate/image");
+  width: 100%;
+  height: 300px;
+}
+.card--9 .card__img,
+.card--9 .card__img--hover {
+  background-image: url("https://blog.turtlebeach.com/wp-content/uploads/2022/03/GTA-5-Premium-Edition.jpeg");
+  height: 300px;
+}
+.card--10 .card__img,
+.card--10 .card__img--hover {
+  background-image: url("https://assets.nintendo.com/image/upload/c_fill,w_1200/q_auto:best/f_auto/dpr_2.0/ncom/en_US/games/switch/s/subnautica-switch/hero");
+  width: 100%;
+  height: 300px;
+}
+.card--11 .card__img,
+.card--11 .card__img--hover {
+  background-image: url("https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/blog/hero/mwii/MWII-002-REVEAL-TOUT.jpg");
+  width: 100%;
+  height: 300px;
+}
+.card--12 .card__img,
+.card--12 .card__img--hover {
+  background-image: url("https://france3-regions.blog.francetvinfo.fr/capitale-hightech/wp-content/uploads/sites/153/2015/11/call-of-duty-black-ops-III-1024x576.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.card--13 .card__img,
+.card--13 .card__img--hover {
+  background-image: url("https://fs-prod-cdn.nintendo-europe.com/media/images/10_share_images/games_15/nintendo_switch_4/H2x1_NSwitch_MarioAndRabbidsSparksOfHope_enGB.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.card--14 .card__img,
+.card--14 .card__img--hover {
+  background-image: url("https://image.api.playstation.com/vulcan/ap/rnd/202008/1423/F9wyoORp6rZizDA4kA5Icak6.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.card--15 .card__img,
+.card--15 .card__img--hover {
+  background-image: url("https://cdn.mos.cms.futurecdn.net/RVRLb4oRZc33m9wsaRCGiD.jpg");
+  width: 100%;
+  height: 300px;
+}
+
+.card--16 .card__img,
+.card--16 .card__img--hover {
+  background-image: url("https://image.api.playstation.com/cdn/UP1018/CUSA00967_00/5qUomx38PSHOJ5Krej4YQYkPmfqSonCW.png");
+  height: 300px;
+}
+.Accessories {
+  color: white;
+}
+.card--a1 .card__img,
+.card--a1 .card__img--hover {
+  background-image: url("https://media.gamestop.com/i/gamestop/11106278_whiteblack?fmt=auto&$pdp-gallery$");
+  height: 300px;
+}
+.card--a2 .card__img,
+.card--a2 .card__img--hover {
+  background-image: url("https://m.media-amazon.com/images/I/61MxT5wcscL.jpg");
+  height: 300px;
+}
+.card--a3 .card__img,
+.card--a3 .card__img--hover {
+  background-image: url("https://media.gamestop.com/i/gamestop/11146116/Sony-DualSense-Wireless-Controller-for-PlayStation-5?fmt=auto&$pdp-gallery$");
+  height: 300px;
+}
+.card--a4 .card__img,
+.card--a4 .card__img--hover {
+  background-image: url("https://media.gamestop.com/i/gamestop/10175181/Logitech-G29-Driving-Force-Racing-Wheel-for-Playstation-4?fmt=auto&$pdp-gallery$");
+  height: 300px;
+}
+.card--a5 .card__img,
+.card--a5 .card__img--hover {("https://media.gamestop.com/i/gamestop/11167970/Logitech-G-PRO-X-Gaming-Headset---League-of-Legends?fmt=auto&$thumb$"");
+  height: 300px;
+}
+
+.card--a6 .card__img,
+.card--a6 .card__img--hover {
+  background-image: url("https://media.steelseriescdn.com/thumbs/filer_public/bd/47/bd47f69f-5077-4b99-b8a0-1a7855d2b95e/purchase-gallery-arctis-5-pubg_hero.png__1920x1080_crop-fit_optimize_subsampling-2.png");
+  height: 300px;
+}
+
+.card--a7 .card__img,
+.card--a7 .card__img--hover {
+  background-image: url("");
+  height: 300px;
+}
+
+.card--a8 .card__img,
+.card--a8 .card__img--hover {
+  background-image: url("");
+  height: 300px;
+}
+
+.card--a9 .card__img,
+.card--a9 .card__img--hover {
+  background-image: url("");
+  height: 300px;
+}
+
+.card__like {
+  width: 18px;
+}
+
+.card__img {
+  visibility: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.card__info-hover {
+  position: absolute;
+  padding: 16px;
+  width: 100%;
+  opacity: 0;
+  top: 0;
+}
+
+.card__img--hover {
+  transition: 0.2s all ease-out;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  position: absolute;
+  height: 235px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  top: 0;
+}
+.card {
+  /* display: flex;
+  justify-content: space-around; */
+
+  margin-right: 25px;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+  background-color: rgb(255, 255, 255);
+  width: 33.3%;
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  z-index: 0;
+  box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+}
+.card:hover {
+  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+  transform: scale(1.1, 1.1);
+}
+
+.card__info {
+  z-index: 2;
+  background-color: rgb(255, 255, 255);
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  padding: 16px 24px 24px 24px;
+}
+
+.card__category {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+}
+.card__title {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: "Roboto Slab", serif;
+}
+
+.card__by {
+  font-size: 12px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+
+.card__author {
+  font-weight: 600;
+  text-decoration: none;
+  color: #ad7d52;
+}
+
+.card:hover .card__img--hover {
+  height: 100%;
+  opacity: 0.3;
+}
+
+.card:hover .card__info {
+  background-color: transparent;
+  position: relative;
+}
+
+.card:hover .card__info-hover {
+  opacity: 1;
+}
